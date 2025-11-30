@@ -113,7 +113,7 @@ def dump_data_to_postgres(df, connection_params):
 if __name__ == "__main__":
     load_dotenv()
     # Folder containing JSON files
-    folder_path = "Spotify Extended Streaming History/"
+    folder_path = "Spotify Extended Streaming History/" # Remember to add your .json files here
 
     # Get all JSON files in the folder
     json_files = glob.glob(os.path.join(folder_path, "*.json"))
