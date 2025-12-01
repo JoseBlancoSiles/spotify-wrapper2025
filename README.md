@@ -36,7 +36,7 @@ You can check your database with:
 ```sql
 SELECT current_database();
 
-CREATE SCHEMA RAW;
+CREATE SCHEMA RAW; --
 
 -- PRS schema: processed / filtered data
 CREATE SCHEMA PRS;
